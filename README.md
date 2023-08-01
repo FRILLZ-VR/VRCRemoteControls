@@ -1,5 +1,5 @@
 # VRCMobileController
-Guide and scripts for creating a portable controller for world lighting / effects at live events. Examples will use the AudioLinkController prefab object, however this can work with other controllers. 
+Guide and scripts for creating a portable controller for world lighting / effects at live events. This controller is hidden from all players not on a whitelist and thus can be carried around your world freely. Examples will use the AudioLinkController prefab object, however this can work with other controllers. 
 
 ### Attaching extra controls to the AudioLinkController object
 
