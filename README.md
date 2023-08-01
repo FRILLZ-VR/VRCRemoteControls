@@ -18,7 +18,7 @@ Once everything is placed in your preferred position, the constraint setting nee
 ![image](parentConstraint.png)
 
 ### Using the hide script
-At this point you should be able to add the provided script into your project. I recommend right clicking in your unity asset folder and choosing "Create new U# script", and then pasting the provided code in its entirety.
+At this point you should be able to add the [provided script](https://github.com/FRILLZ-VR/VRCMobileController/blob/main/LocalHideUIWhitelist.cs) into your project.  I recommend right clicking in your unity asset folder and choosing "Create new U# script", and then pasting the provided code in its entirety.
 
 This script hides all meshes, canvases, and colliders for everyone except those permitted on the whitelist. It is independent of the controller and can be placed on any object in the scene, preferbaly an empty GameObject. Simply drag your elements to each group and provide the VRC usernames of who you would like to be able to see the controller. Since no game objects are toggled off, all scripts should behave as normal for your buttons, and sliders, for everyone else, however non whitelisted users will not be able to see or interact with the controller.
 
