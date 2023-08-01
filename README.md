@@ -28,7 +28,7 @@ In this example, I'll be dragging in the mesh components from the AudioLinkContr
 
 ![image](LocalUIScriptPic.png)
 
-The controller in question has many extra controls for my world. You may use any button or slider prefab you prefer.
+The controller I use has many extra controls for my world. You should be able to use any variety of button or slider prefabs and get similar results.
 
 ![image](controllerFinal.png)
 
