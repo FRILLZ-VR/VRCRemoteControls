@@ -33,7 +33,11 @@ The controller I use has many extra controls for my world. You should be able to
 ![image](controllerFinal.png)
 
 ## Optional: Teleport Controller to position
-Add the [controller reset](https://github.com/FRILLZ-VR/VRCMobileController/blob/main/ControllerPositionReset.cs) script to any cube or object with a collider for interaction. Provide whitelist names like before, and then fill the references from the AudioLinkController (This will be dragged twice for the VRC Object Sync reference, as well as the VRC Pickup reference). Add the position/rotation you would like the controller to be reset to below, and this will teleport the controller to the location globally for everyone. Useful if it gets lost or you have a large map!
+Add the [controller reset](https://github.com/FRILLZ-VR/VRCMobileController/blob/main/ControllerPositionReset.cs) script to any cube or object with a collider for interaction. Provide whitelist names like before, and then fill the references from the AudioLinkController (This will be dragged twice for the VRC Object Sync reference, as well as the VRC Pickup reference). 
+
+Add the position/rotation you would like the controller to be reset to below, and this will teleport the controller to the location globally for everyone. Useful if it gets lost or you have a large map!
+
+![image](teleport.png)
 
 **Notes**
 - Your connected sliders/buttons should be on the "Pickup" layer in Unity to avoid player collision.
