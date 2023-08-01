@@ -9,7 +9,7 @@ For instance, "ColorControls" is a GameObject with many buttons as children.
 
 ![image](ALControllerPic.png)
 
-Note the Parent Contraint component on the ControlBox child of the AudioLinkController. This component will always take the Handle object as its source transform. Any buttons or sliders you attach by adding a child to this object will need the same setup.
+Note the Parent Contraint component on the ControlBox child of the AudioLinkController. This component will always take the Handle object as its source transform. Any buttons or sliders you attach by adding a child to the ControlBox will need the same setup. I recommend grouping your controls this way to avoid adding ParentConstraint components to each button or canvas you may need to add.
 
 As an example above, "ColorControls" is a GameObject that holds many buttons as children. Only the top parent, "ColorControls" will need the ParentConstraint component on it to be locked to the rest of the controller.
 
