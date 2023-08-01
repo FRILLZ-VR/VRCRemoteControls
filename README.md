@@ -32,3 +32,6 @@ The controller I use has many extra controls for my world. You should be able to
 
 ![image](controllerFinal.png)
 
+**Notes**
+- Your connected sliders/buttons should be on the "Pickup" layer in Unity to avoid player collision.
+- Teleport controller button will be added soon
